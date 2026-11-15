@@ -1,0 +1,23 @@
+{
+  "auc": 0.7749270149189834,
+  "feature_importance": {
+    "selection_rate": 0.7743955840099214,
+    "league_sel_rate": 0.10366980001004683,
+    "home_sel_rate": 0.01642513727600737,
+    "batting_order_std": 0.013449885485668375,
+    "batting_order_mean": 0.012554494622148643,
+    "recent_form_10": 0.012223760966180452,
+    "toss_bat_sel_rate": 0.010766588161740965,
+    "away_sel_rate": 0.010521951720193887,
+    "toss_field_sel_rate": 0.009457101023141873,
+    "captain_rate": 0.0063190241668181065,
+    "games_in_squad": 0.006249499448787398,
+    "games_played": 0.004295838693934208,
+    "motm_rate": 0.004200149835748857,
+    "recent_form_5": 0.004063096185514176,
+    "knockout_sel_rate": 0.0037919924775046154,
+    "teams_count": 0.003012033392935038,
+    "competitions_count": 0.0029442148536996215,
+    "wk_rate": 0.0016598476700083558
+  }
+}

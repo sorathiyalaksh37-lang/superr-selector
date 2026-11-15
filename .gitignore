@@ -1,0 +1,38 @@
+# Large data files
+data/ball_by_ball.csv
+
+# Parquet artifacts (large binary files)
+artifacts/**/*.parquet
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environments
+.env
+.venv
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Model files (large)
+artifacts/**/*.joblib
+
+# Logs
+*.log

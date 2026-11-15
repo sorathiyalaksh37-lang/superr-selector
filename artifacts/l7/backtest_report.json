@@ -1,0 +1,1775 @@
+{
+  "status": "PASS",
+  "gate_passed": true,
+  "metrics": {
+    "precision_at_11": 0.8443051201671893,
+    "captain_accuracy": 0.39080459770114945,
+    "top3_overlap": 0.9425287356321839,
+    "vs_random_lift": 1.5570080583037842,
+    "matches_evaluated": 174
+  },
+  "gates": {
+    "precision_at_11": {
+      "value": 0.8443051201671893,
+      "threshold": 0.55,
+      "passed": true
+    },
+    "captain_accuracy": {
+      "value": 0.39080459770114945,
+      "threshold": 0.3,
+      "passed": true
+    },
+    "top3_overlap": {
+      "value": 0.9425287356321839,
+      "threshold": 0.65,
+      "passed": true
+    },
+    "vs_random_lift": {
+      "value": 1.5570080583037842,
+      "threshold": 1.05,
+      "passed": true
+    }
+  },
+  "per_match": [
+    {
+      "match_id": 41849,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 0.6666666666666666,
+      "random_baseline": 0.7063636363636364,
+      "vs_random_lift": 1.1583011583011582,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 41850,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.7110909090909091,
+      "vs_random_lift": 1.150600869342879,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 41851,
+      "precision_at_11": 0.7272727272727273,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.7185454545454545,
+      "vs_random_lift": 1.0121457489878543,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 42027,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 0.6666666666666666,
+      "random_baseline": 0.666,
+      "vs_random_lift": 1.2285012285012284,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 42028,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 0.6666666666666666,
+      "random_baseline": 0.6754545454545455,
+      "vs_random_lift": 1.2113055181695827,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 42029,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 0.6666666666666666,
+      "random_baseline": 0.6683636363636363,
+      "vs_random_lift": 1.2241566920565834,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 42031,
+      "precision_at_11": 0.7272727272727273,
+      "captain_accuracy": 0,
+      "top3_overlap": 0.6666666666666666,
+      "random_baseline": 0.6670909090909091,
+      "vs_random_lift": 1.0902153175252114,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 45390,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6187272727272728,
+      "vs_random_lift": 1.616220981486923,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 45391,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 0.6666666666666666,
+      "random_baseline": 0.6276363636363637,
+      "vs_random_lift": 1.448435689455388,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 45392,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 0.6666666666666666,
+      "random_baseline": 0.6176363636363637,
+      "vs_random_lift": 1.4718869590815424,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 45393,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 1,
+      "top3_overlap": 0.6666666666666666,
+      "random_baseline": 0.6256363636363637,
+      "vs_random_lift": 1.3077593722755014,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 45394,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6345454545454545,
+      "vs_random_lift": 1.4326647564469914,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 45489,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.653090909090909,
+      "vs_random_lift": 1.3919821826280623,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 45490,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.643090909090909,
+      "vs_random_lift": 1.2722646310432573,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 45491,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6407272727272727,
+      "vs_random_lift": 1.2769580022701477,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 47241,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6901818181818182,
+      "vs_random_lift": 1.4488935721812433,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 47242,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6832727272727273,
+      "vs_random_lift": 1.1974454497072913,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 47243,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6930909090909091,
+      "vs_random_lift": 1.3116474291710387,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 47969,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.7398181818181818,
+      "vs_random_lift": 1.1059228311624478,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 47976,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.7145454545454545,
+      "vs_random_lift": 1.3994910941475829,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 47977,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 0.6666666666666666,
+      "random_baseline": 0.6734545454545455,
+      "vs_random_lift": 1.3498920086393087,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 47978,
+      "precision_at_11": 0.7272727272727273,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6481818181818182,
+      "vs_random_lift": 1.1220196353436185,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 47979,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.7043636363636364,
+      "vs_random_lift": 1.2906556530717603,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 47980,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 0.6666666666666666,
+      "random_baseline": 0.6718181818181818,
+      "vs_random_lift": 1.3531799729364007,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 47981,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6385454545454545,
+      "vs_random_lift": 1.2813211845102508,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 47982,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6432727272727272,
+      "vs_random_lift": 1.4132278123233466,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48015,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6494545454545455,
+      "vs_random_lift": 1.3997760358342664,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48016,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6196363636363637,
+      "vs_random_lift": 1.4671361502347418,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48017,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6603636363636364,
+      "vs_random_lift": 1.5143171806167401,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48018,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.5885454545454545,
+      "vs_random_lift": 1.5446400988569664,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48019,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6656363636363636,
+      "vs_random_lift": 1.3657470636438132,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48020,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.5987272727272728,
+      "vs_random_lift": 1.5183723048891586,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48021,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6916363636363636,
+      "vs_random_lift": 1.4458464773922188,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48022,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.5809090909090908,
+      "vs_random_lift": 1.721439749608764,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48023,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 0.6666666666666666,
+      "random_baseline": 0.6612727272727273,
+      "vs_random_lift": 1.2372834753918063,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48024,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.5925454545454545,
+      "vs_random_lift": 1.5342129487572875,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48025,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6283636363636363,
+      "vs_random_lift": 1.4467592592592593,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48026,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6274545454545455,
+      "vs_random_lift": 1.5937409446537234,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48027,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.5781818181818182,
+      "vs_random_lift": 1.7295597484276728,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48028,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6481818181818182,
+      "vs_random_lift": 1.5427769985974755,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48029,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6258181818181817,
+      "vs_random_lift": 1.4526438117373621,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48466,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6825454545454545,
+      "vs_random_lift": 1.4651038891848696,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48467,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.688,
+      "vs_random_lift": 1.3213530655391121,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48512,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6874545454545455,
+      "vs_random_lift": 1.3224014810896587,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48514,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6961818181818182,
+      "vs_random_lift": 1.4364063724209974,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48591,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.5925454545454545,
+      "vs_random_lift": 1.5342129487572875,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48592,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6009090909090908,
+      "vs_random_lift": 1.3615733736762483,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48593,
+      "precision_at_11": 0.6363636363636364,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.5956363636363636,
+      "vs_random_lift": 1.0683760683760684,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48594,
+      "precision_at_11": 0.6363636363636364,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.5925454545454545,
+      "vs_random_lift": 1.0739490641301013,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48595,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.5910909090909091,
+      "vs_random_lift": 1.5379883112888342,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48596,
+      "precision_at_11": 0.7272727272727273,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4996363636363636,
+      "vs_random_lift": 1.4556040756914121,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48597,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.5087272727272726,
+      "vs_random_lift": 1.6082916368834888,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48598,
+      "precision_at_11": 0.6363636363636364,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.5207272727272726,
+      "vs_random_lift": 1.2220670391061454,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48610,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.664,
+      "vs_random_lift": 1.506024096385542,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48611,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6741818181818182,
+      "vs_random_lift": 1.3484358144552318,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48612,
+      "precision_at_11": 0.6363636363636364,
+      "captain_accuracy": 0,
+      "top3_overlap": 0.6666666666666666,
+      "random_baseline": 0.6690909090909091,
+      "vs_random_lift": 0.9510869565217391,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48915,
+      "precision_at_11": 0.6363636363636364,
+      "captain_accuracy": 0,
+      "top3_overlap": 0.6666666666666666,
+      "random_baseline": 0.6632727272727272,
+      "vs_random_lift": 0.9594298245614036,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48916,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6581818181818182,
+      "vs_random_lift": 1.2430939226519337,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 48917,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6721818181818182,
+      "vs_random_lift": 1.2172031376791994,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 49736,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 0.6666666666666666,
+      "random_baseline": 0.6474545454545454,
+      "vs_random_lift": 1.4040999719180007,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 49737,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 0.6666666666666666,
+      "random_baseline": 0.6443636363636364,
+      "vs_random_lift": 1.4108352144469525,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 49738,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 0.6666666666666666,
+      "random_baseline": 0.6565454545454545,
+      "vs_random_lift": 1.3846579894765993,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 49739,
+      "precision_at_11": 0.5454545454545454,
+      "captain_accuracy": 0,
+      "top3_overlap": 0.3333333333333333,
+      "random_baseline": 0.644,
+      "vs_random_lift": 0.846979107848673,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 49740,
+      "precision_at_11": 0.5454545454545454,
+      "captain_accuracy": 0,
+      "top3_overlap": 0.3333333333333333,
+      "random_baseline": 0.6470909090909092,
+      "vs_random_lift": 0.8429334082607473,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 50125,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4421818181818181,
+      "vs_random_lift": 1.8503289473684215,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50126,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.40963636363636363,
+      "vs_random_lift": 2.4411895250776743,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50127,
+      "precision_at_11": 0.7272727272727273,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4129090909090909,
+      "vs_random_lift": 1.7613386173491854,
+      "squad_size": 15,
+      "actual_xi_size": 23
+    },
+    {
+      "match_id": 50128,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.46618181818181814,
+      "vs_random_lift": 1.9500780031201248,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50129,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.44854545454545447,
+      "vs_random_lift": 1.8240778273206328,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50130,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 0.6666666666666666,
+      "random_baseline": 0.4143636363636363,
+      "vs_random_lift": 1.9745502413339187,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50131,
+      "precision_at_11": 0.7272727272727273,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.44309090909090904,
+      "vs_random_lift": 1.64136233073451,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50132,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 1,
+      "top3_overlap": 0.6666666666666666,
+      "random_baseline": 0.4223636363636363,
+      "vs_random_lift": 1.9371502367628073,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50133,
+      "precision_at_11": 0.7272727272727273,
+      "captain_accuracy": 0,
+      "top3_overlap": 0.6666666666666666,
+      "random_baseline": 0.44327272727272726,
+      "vs_random_lift": 1.6406890894175554,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50134,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4452727272727272,
+      "vs_random_lift": 1.8374846876276034,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50135,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.421090909090909,
+      "vs_random_lift": 1.9430051813471507,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50136,
+      "precision_at_11": 0.7272727272727273,
+      "captain_accuracy": 1,
+      "top3_overlap": 0.6666666666666666,
+      "random_baseline": 0.4009090909090909,
+      "vs_random_lift": 1.8140589569160999,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 50137,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4279999999999999,
+      "vs_random_lift": 2.3364485981308416,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50138,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.43799999999999994,
+      "vs_random_lift": 2.0755500207555,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50139,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.42945454545454537,
+      "vs_random_lift": 2.116850127011008,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50140,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.45618181818181813,
+      "vs_random_lift": 1.9928258270227184,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50141,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.45090909090909087,
+      "vs_random_lift": 2.0161290322580645,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50142,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4223636363636363,
+      "vs_random_lift": 1.9371502367628073,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50143,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4554545454545454,
+      "vs_random_lift": 1.9960079840319362,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50144,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.43472727272727263,
+      "vs_random_lift": 2.3002927645336686,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50188,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.707090909090909,
+      "vs_random_lift": 1.285677552069941,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 50190,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.7078181818181819,
+      "vs_random_lift": 1.4127921911122525,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 50340,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.684909090909091,
+      "vs_random_lift": 1.1945845500398193,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 50341,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6810909090909091,
+      "vs_random_lift": 1.201281366791244,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 50342,
+      "precision_at_11": 0.7272727272727273,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.425090909090909,
+      "vs_random_lift": 1.7108639863130883,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50343,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.41381818181818175,
+      "vs_random_lift": 2.1968365553602816,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50344,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.46781818181818174,
+      "vs_random_lift": 2.1375825884181894,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50345,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 0.6666666666666666,
+      "random_baseline": 0.4361818181818181,
+      "vs_random_lift": 2.084201750729471,
+      "squad_size": 15,
+      "actual_xi_size": 23
+    },
+    {
+      "match_id": 50346,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4363636363636363,
+      "vs_random_lift": 2.291666666666667,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50347,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4483636363636363,
+      "vs_random_lift": 2.0275750202757505,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50348,
+      "precision_at_11": 0.6363636363636364,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4005454545454544,
+      "vs_random_lift": 1.5887426236949618,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50349,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.42745454545454536,
+      "vs_random_lift": 2.3394300297745647,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50350,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.47436363636363627,
+      "vs_random_lift": 1.9164430816404756,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50351,
+      "precision_at_11": 0.7272727272727273,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4227272727272727,
+      "vs_random_lift": 1.720430107526882,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50352,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.42599999999999993,
+      "vs_random_lift": 1.9206145966709351,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50353,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4592727272727273,
+      "vs_random_lift": 1.979414093428345,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50354,
+      "precision_at_11": 0.6363636363636364,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.41836363636363627,
+      "vs_random_lift": 1.5210777922642333,
+      "squad_size": 15,
+      "actual_xi_size": 25
+    },
+    {
+      "match_id": 50355,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4605454545454545,
+      "vs_random_lift": 1.9739439399921044,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50356,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.47763636363636364,
+      "vs_random_lift": 1.903311762466692,
+      "squad_size": 15,
+      "actual_xi_size": 25
+    },
+    {
+      "match_id": 50357,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.419090909090909,
+      "vs_random_lift": 2.169197396963124,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50358,
+      "precision_at_11": 0.7272727272727273,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4014545454545454,
+      "vs_random_lift": 1.811594202898551,
+      "squad_size": 15,
+      "actual_xi_size": 23
+    },
+    {
+      "match_id": 50359,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4352727272727272,
+      "vs_random_lift": 2.0885547201336676,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50360,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.43890909090909086,
+      "vs_random_lift": 1.8641259320629664,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50361,
+      "precision_at_11": 0.7272727272727273,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4685454545454545,
+      "vs_random_lift": 1.5521924718665117,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50362,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4154545454545454,
+      "vs_random_lift": 1.9693654266958427,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50363,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.45454545454545453,
+      "vs_random_lift": 2.0,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50364,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.425090909090909,
+      "vs_random_lift": 1.9247219846022245,
+      "squad_size": 15,
+      "actual_xi_size": 23
+    },
+    {
+      "match_id": 50365,
+      "precision_at_11": 0.6363636363636364,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4163636363636363,
+      "vs_random_lift": 1.5283842794759825,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50366,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.409090909090909,
+      "vs_random_lift": 2.444444444444445,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50367,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.46199999999999997,
+      "vs_random_lift": 1.9677292404565132,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50368,
+      "precision_at_11": 0.6363636363636364,
+      "captain_accuracy": 1,
+      "top3_overlap": 0.6666666666666666,
+      "random_baseline": 0.4370909090909091,
+      "vs_random_lift": 1.4559068219633944,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50369,
+      "precision_at_11": 0.6363636363636364,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.39763636363636357,
+      "vs_random_lift": 1.6003657978966623,
+      "squad_size": 15,
+      "actual_xi_size": 23
+    },
+    {
+      "match_id": 50370,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.44036363636363623,
+      "vs_random_lift": 2.0644095788604466,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50371,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.467090909090909,
+      "vs_random_lift": 1.751654340210199,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50372,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4221818181818181,
+      "vs_random_lift": 2.1533161068044793,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50373,
+      "precision_at_11": 0.7272727272727273,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4529090909090908,
+      "vs_random_lift": 1.60578081091931,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50374,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.43290909090909085,
+      "vs_random_lift": 1.8899622007559853,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50375,
+      "precision_at_11": 0.7272727272727273,
+      "captain_accuracy": 1,
+      "top3_overlap": 0.6666666666666666,
+      "random_baseline": 0.4319999999999999,
+      "vs_random_lift": 1.683501683501684,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50376,
+      "precision_at_11": 0.7272727272727273,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4654545454545454,
+      "vs_random_lift": 1.5625000000000002,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50377,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.43036363636363634,
+      "vs_random_lift": 2.1123785382340516,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50378,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.427090909090909,
+      "vs_random_lift": 1.9157088122605368,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50379,
+      "precision_at_11": 0.7272727272727273,
+      "captain_accuracy": 0,
+      "top3_overlap": 0.3333333333333333,
+      "random_baseline": 0.4514545454545454,
+      "vs_random_lift": 1.6109544905356425,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50380,
+      "precision_at_11": 0.5454545454545454,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4363636363636363,
+      "vs_random_lift": 1.2500000000000002,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50381,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4269090909090909,
+      "vs_random_lift": 2.1294718909710393,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50382,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.47127272727272723,
+      "vs_random_lift": 2.121913580246914,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50383,
+      "precision_at_11": 0.45454545454545453,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4365454545454545,
+      "vs_random_lift": 1.0412328196584757,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50384,
+      "precision_at_11": 0.7272727272727273,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4145454545454545,
+      "vs_random_lift": 1.754385964912281,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50385,
+      "precision_at_11": 0.45454545454545453,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4583636363636363,
+      "vs_random_lift": 0.9916699722332408,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50386,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.42781818181818176,
+      "vs_random_lift": 1.912452188695283,
+      "squad_size": 15,
+      "actual_xi_size": 25
+    },
+    {
+      "match_id": 50387,
+      "precision_at_11": 0.7272727272727273,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4223636363636363,
+      "vs_random_lift": 1.7219113215669397,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50388,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4267272727272726,
+      "vs_random_lift": 2.343417128248829,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50389,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.46218181818181814,
+      "vs_random_lift": 1.770259638080252,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50390,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.431090909090909,
+      "vs_random_lift": 1.897933361450865,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50391,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.4321818181818181,
+      "vs_random_lift": 1.893142616743795,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50404,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6730909090909091,
+      "vs_random_lift": 1.3506212857914641,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 50405,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6556363636363638,
+      "vs_random_lift": 1.3865779256794228,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 50406,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6638181818181818,
+      "vs_random_lift": 1.2325390304026296,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 50407,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6618181818181817,
+      "vs_random_lift": 1.2362637362637365,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 50408,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6618181818181817,
+      "vs_random_lift": 1.3736263736263736,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 50503,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.7092727272727273,
+      "vs_random_lift": 1.1535503716995643,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 50504,
+      "precision_at_11": 0.7272727272727273,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6994545454545456,
+      "vs_random_lift": 1.0397712503249283,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 50505,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.7183636363636364,
+      "vs_random_lift": 1.2655024044545684,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 50507,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6845454545454545,
+      "vs_random_lift": 1.1952191235059764,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 50508,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6890909090909092,
+      "vs_random_lift": 1.1873350923482848,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 50509,
+      "precision_at_11": 0.7272727272727273,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6838181818181819,
+      "vs_random_lift": 1.0635469290082424,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 50597,
+      "precision_at_11": 0.6363636363636364,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6707272727272727,
+      "vs_random_lift": 0.9487666034155597,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 50598,
+      "precision_at_11": 0.6363636363636364,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6587272727272727,
+      "vs_random_lift": 0.9660502346121999,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 50599,
+      "precision_at_11": 0.7272727272727273,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6674545454545455,
+      "vs_random_lift": 1.0896213565785888,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 50942,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.45109090909090904,
+      "vs_random_lift": 2.0153164046755343,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50943,
+      "precision_at_11": 0.7272727272727273,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.42581818181818176,
+      "vs_random_lift": 1.7079419299743812,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50944,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.44199999999999995,
+      "vs_random_lift": 1.8510900863842044,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 50945,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.45836363636363625,
+      "vs_random_lift": 1.9833399444664819,
+      "squad_size": 15,
+      "actual_xi_size": 24
+    },
+    {
+      "match_id": 51383,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.7105454545454546,
+      "vs_random_lift": 1.2794268167860796,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 51384,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.706,
+      "vs_random_lift": 1.41643059490085,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 51385,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.714,
+      "vs_random_lift": 1.400560224089636,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 54210,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.609090909090909,
+      "vs_random_lift": 1.492537313432836,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 54211,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6049090909090908,
+      "vs_random_lift": 1.352569882777277,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 54212,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6176363636363637,
+      "vs_random_lift": 1.3246982631733883,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 54213,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6043636363636363,
+      "vs_random_lift": 1.3537906137184117,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 54214,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.616,
+      "vs_random_lift": 1.4757969303423848,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 54408,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.707090909090909,
+      "vs_random_lift": 1.4142453072769352,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 54409,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.7132727272727273,
+      "vs_random_lift": 1.401988274279888,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 54410,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 1,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.7027272727272728,
+      "vs_random_lift": 1.2936610608020698,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 54711,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.7585454545454545,
+      "vs_random_lift": 1.3183125599232983,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 55078,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.7174545454545455,
+      "vs_random_lift": 1.393816523061328,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 55079,
+      "precision_at_11": 0.8181818181818182,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.726,
+      "vs_random_lift": 1.1269722013523666,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 55080,
+      "precision_at_11": 0.6363636363636364,
+      "captain_accuracy": 0,
+      "top3_overlap": 0.6666666666666666,
+      "random_baseline": 0.7021818181818181,
+      "vs_random_lift": 0.9062661833247023,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 55559,
+      "precision_at_11": 1.0,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6658181818181818,
+      "vs_random_lift": 1.5019115237575098,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 55560,
+      "precision_at_11": 0.9090909090909091,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6678181818181818,
+      "vs_random_lift": 1.361285053090117,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    },
+    {
+      "match_id": 55561,
+      "precision_at_11": 0.7272727272727273,
+      "captain_accuracy": 0,
+      "top3_overlap": 1.0,
+      "random_baseline": 0.6567272727272727,
+      "vs_random_lift": 1.1074197120708749,
+      "squad_size": 15,
+      "actual_xi_size": 22
+    }
+  ]
+}

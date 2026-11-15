@@ -1,0 +1,174 @@
+{
+  "status": "PASS",
+  "gate_passed": true,
+  "metrics": {
+    "top10_batter_mean_sr": 177.92331390088574,
+    "league_pressure_sr": 141.8942006685414,
+    "strike_rate_lift": 36.02911323234434,
+    "top10_bowler_mean_econ": 7.635984466577429,
+    "league_pressure_econ": 8.979147874993368,
+    "economy_saving_per_over": 1.343163408415939,
+    "batter_win_rate_lift": 1.1366795095917532
+  },
+  "gates": {
+    "batters_no_duplicates": {
+      "passed": true,
+      "value": 10,
+      "threshold": 10
+    },
+    "bowlers_no_duplicates": {
+      "passed": true,
+      "value": 10,
+      "threshold": 10
+    },
+    "batters_min_samples": {
+      "passed": true,
+      "value": 185,
+      "threshold": 50
+    },
+    "bowlers_min_samples": {
+      "passed": true,
+      "value": 97,
+      "threshold": 60
+    },
+    "batter_strike_rate_premium": {
+      "passed": true,
+      "value": 177.92331390088574,
+      "threshold": 160.0
+    },
+    "bowler_economy_suppression": {
+      "passed": true,
+      "value": 7.635984466577429,
+      "threshold": 8.5
+    },
+    "batter_win_rate_lift": {
+      "passed": true,
+      "value": 1.1366795095917532,
+      "threshold": 1.05
+    }
+  },
+  "top10_batters": [
+    {
+      "rank": 1,
+      "player_id": 50284,
+      "player_name": "Vaibhav Sooryavanshi",
+      "pressure_rating": 99.5
+    },
+    {
+      "rank": 2,
+      "player_id": 4847,
+      "player_name": "Finn Allen",
+      "pressure_rating": 88.31628544508555
+    },
+    {
+      "rank": 3,
+      "player_id": 48504,
+      "player_name": "Ayush Mhatre",
+      "pressure_rating": 88.10901011621633
+    },
+    {
+      "rank": 4,
+      "player_id": 6281,
+      "player_name": "Abhishek Sharma",
+      "pressure_rating": 87.94514124606509
+    },
+    {
+      "rank": 5,
+      "player_id": 25669,
+      "player_name": "Priyansh Arya",
+      "pressure_rating": 87.84003873159901
+    },
+    {
+      "rank": 6,
+      "player_id": 5039,
+      "player_name": "Rajat Patidar",
+      "pressure_rating": 87.79962024379721
+    },
+    {
+      "rank": 7,
+      "player_id": 1699,
+      "player_name": "Suryakumar Yadav",
+      "pressure_rating": 87.11150437937415
+    },
+    {
+      "rank": 8,
+      "player_id": 4260,
+      "player_name": "Heinrich Klaasen",
+      "pressure_rating": 87.05242813144685
+    },
+    {
+      "rank": 9,
+      "player_id": 37052,
+      "player_name": "Naman Dhir",
+      "pressure_rating": 86.96700584439321
+    },
+    {
+      "rank": 10,
+      "player_id": 772,
+      "player_name": "Rilee Rossouw",
+      "pressure_rating": 86.90999608619919
+    }
+  ],
+  "top10_bowlers": [
+    {
+      "rank": 1,
+      "player_id": 2382,
+      "player_name": "Jamie Overton",
+      "pressure_rating": 99.5
+    },
+    {
+      "rank": 2,
+      "player_id": 7699,
+      "player_name": "Abbas Afridi",
+      "pressure_rating": 94.75951414199992
+    },
+    {
+      "rank": 3,
+      "player_id": 2681,
+      "player_name": "Taskin Ahmed",
+      "pressure_rating": 92.9568363619091
+    },
+    {
+      "rank": 4,
+      "player_id": 6450,
+      "player_name": "Mujeeb Ur Rahman",
+      "pressure_rating": 92.0778912425481
+    },
+    {
+      "rank": 5,
+      "player_id": 27504,
+      "player_name": "Dushan Hemantha",
+      "pressure_rating": 91.74815600703946
+    },
+    {
+      "rank": 6,
+      "player_id": 25048,
+      "player_name": "Umran Malik",
+      "pressure_rating": 91.38476336907698
+    },
+    {
+      "rank": 7,
+      "player_id": 5979,
+      "player_name": "Abrar Ahmed",
+      "pressure_rating": 91.07902014670744
+    },
+    {
+      "rank": 8,
+      "player_id": 2490,
+      "player_name": "Mohammad Nawaz",
+      "pressure_rating": 89.66170069869054
+    },
+    {
+      "rank": 9,
+      "player_id": 830,
+      "player_name": "Josh Hazlewood",
+      "pressure_rating": 89.35946151667324
+    },
+    {
+      "rank": 10,
+      "player_id": 3644,
+      "player_name": "Kuldeep Yadav",
+      "pressure_rating": 89.27894376941407
+    }
+  ]
+}
