@@ -110,7 +110,7 @@ with tab1:
             "Pressure Runs":   "{:.0f}",
             "Strike Rate":     "{:.1f}",
             "Clutch Δ":        "{:+.2f}",
-        }).background_gradient(subset=["Pressure Rating"], cmap="RdYlGn"),
+        }),
         use_container_width=True, hide_index=True
     )
 
@@ -135,7 +135,7 @@ with tab2:
             "Economy":         "{:.2f}",
             "Death Economy":   "{:.2f}",
             "Clutch Δ":        "{:+.2f}",
-        }).background_gradient(subset=["Pressure Rating"], cmap="RdYlGn"),
+        }),
         use_container_width=True, hide_index=True
     )
 
